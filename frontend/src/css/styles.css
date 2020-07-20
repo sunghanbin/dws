@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "Form.css";
+@import "HeaderNav.css";
+@import "SideMenu.css";
+@import"buyerSerch.css";
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
+:root {
+  --dws-col-1: #0779e4;
+  --dws-col-2: #4cbbb9;
+  --dws-col-3: #77d8d8;
+  --dws-col-4: #eff3c6;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+  font-family: "Gugi", cursive;
+}
+.contain{
+  display: grid;
+  height: 100vh;
+  
+  grid-template-columns: 150px 1fr;
+  grid-template-areas:
+    "Sidebar contents";
+   
+}
+
+.sidemenu{ grid-area: Sidebar;}
+.smalltab{grid-area: Sidebar;}
+main{ grid-area: contents;
+  display: flex;
+  justify-content: center;
+  }
+
+  

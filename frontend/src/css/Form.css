@@ -1,0 +1,33 @@
+form {
+  margin-top: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.submit_form {
+  font-weight: 700;
+  width: 400px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.submit_form > input {
+  padding: 20px 12px;
+  box-shadow: 8px 8px 20px 0px rgba(48, 37, 50, 0.37);
+}
+.form_btnG {
+  margin-top: 50px;
+}
+.form_btnG > .btn:first-child {
+  margin-right: 20px;
+}
+.submit_btn {
+  margin-top: 50px;
+  width: 200px;
+}
+#pswd2Msg {
+  font-size: 12px;
+  align-self: flex-start;
+  color: #cc0000;
+  margin-top: 25px;
+}
